@@ -1,0 +1,11 @@
+$ORIGIN pjfinal.com.
+$TTL 3H
+@	IN SOA	server.pjfinal.com. root@pjfinal.com. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+@	IN	NS	server.pjfinal.com.
+server	IN	A	192.168.100.2
+www	IN	CNAME	server

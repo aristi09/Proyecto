@@ -1,0 +1,11 @@
+$ORIGIN 100.168.192.in-addr.arpa.
+$TTL 3H
+
+@	IN SOA	server.pjfinal.com.	root@pjfinal.com. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+@	IN	NS	server.pjfinal.com.
+3	IN	PTR	server.pjfinal.com.
